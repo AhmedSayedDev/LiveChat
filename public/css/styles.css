@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+html{
+    font-size:16px
+}
+input{
+    font-size:14px
+}
+body{
+    line-height:1.4;
+    color:#333;
+    font-family:Helvetica,Arial,sans-serif
+}
+h1{
+    margin-bottom: 16px;
+    text-align: center !important;
+    color: #7c5ce1!important;
+}
+label{
+    display:block;
+    font-size:14px;
+    margin-bottom:8px;
+    color:#333
+}
+input{
+    border:1px solid #eee;
+    padding:12px;
+    outline:none}
+button{
+    cursor:pointer;
+    padding:12px;
+    background:#7C5CBF;
+    border:none;
+    color:#fff;
+    font-size:16px;
+    transition:background .3s ease}
+button:hover{
+    background:#6b47b8}
+button:disabled{
+    cursor:default;
+    background:#7c5cbf94}
+.form{
+    background:#333744;width:100vw;height:100vh;display:flex;justify-content:center;align-items:center}
+.form-box{
+    box-shadow:0 0 20px 5px #7C5CBF;background:#F7F7FA;padding:24px;width:250px}
+.form button{
+    width:100%}
+.form input{
+    margin-bottom:16px;width:100%}
+.chat{
+    display:flex}
+.chat-sidebar{
+    height:100vh;color:#fff;background:#333744;width:225px;overflow-y:scroll}
+.chat-main{
+    flex-grow:1;display:flex;flex-direction:column;max-height:100vh}
+.chat-msgs{
+    flex-grow:1;padding:24px 24px 0;overflow-y:scroll}
+.message{
+    margin-bottom:16px}
+.message__name{
+    font-weight:600;font-size: 18px!important;margin-right:8px}
+.message__meta{
+    color:
+    #949494;
+    font-size: 13px;}
+.message a{
+    color:#0070CC}
+.compose{
+    display:flex;flex-shrink:0;margin-top:16px;padding:24px}
+.compose form{
+    display:flex;flex-grow:1;margin-right:16px}
+.compose input{
+    border:1px solid #eee;width:100%;padding:12px;margin:0 16px 0 0;flex-grow:1}
+.compose button{
+    font-size:14px}
+.room-title{
+    font-weight: bold;
+    font-size: 22px;
+    background:
+    #2c2f3a;
+    padding: 24px;
+    text-align: center;
+    text-shadow: 3px 3px 4px
+    #ad99b0;}
+.list-title{
+    font-size: 18px;
+    margin-bottom: 4px;
+    padding: 12px 24px 0;
+    text-align: center;
+    font-weight: bold;
+    color:
+    #f7f7f7;}
+.users{list-style-type:none;font-weight:300;padding:12px 24px 0}
